@@ -3,21 +3,38 @@ header{
     height: 10em;
     background-color:antiquewhite;
     margin: auto;
-
+    vertical-align: bottom;
+    
 }
 nav{
-    height: 70%;
+    height: 10em;
     margin-bottom: 0px;
+    background-color: bisque;
 }
 ul{
+    width: 100%;
     list-style: none;
     text-align: center;
-    display: block;
+    display: list-item;
+    padding-bottom: 0px;
+    padding-top: 7em;
+    
+    
+    margin: auto;
     
 }
 li  {
+    width: 90px;
+    height: 100%;
     display: inline-block;
-
+    border-bottom: 0.1px solid black;
+ 
+}
+li a:link{
+   text-decoration: none;
+}
+li a:hover{
+    background-color: indigo;
 }
 
 main{
