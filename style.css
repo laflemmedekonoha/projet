@@ -38,7 +38,7 @@ a{
 #login{
     display: flex;
     flex-direction: row;
-    width: 10em;
+    width: auto;
     height: 5em;
     background-color: rgb(0, 85, 164);
 }
@@ -60,16 +60,30 @@ main hr{
     height: 30px;
     border-radius: 20px;
 }
-#presentation{
+#image_cup{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 
-figcaption{
+#image_cup figcaption{
     text-align: center;
     font-size: xx-large;
     font-weight: bolder;
     color:rgb(239, 65, 53);
+}
+#presentation {
+    width: auto;
+    height: 15em;
+    background-color: rgb(53, 53, 250);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#presentation p{
+    width: 20%;
+    height: 10em;
+    background-color: rgb(198, 165, 230);
 }
