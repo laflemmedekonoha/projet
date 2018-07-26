@@ -131,3 +131,8 @@ main hr{
     background-color: blueviolet;
     
 }
+.btn_haut{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;  
+}
